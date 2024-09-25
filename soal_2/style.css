@@ -1,0 +1,29 @@
+.child{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: serif;
+    border: 5px inset darkcyan;
+
+
+    
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 500px;
+    border: 20px double cornflowerblue;
+    justify-content: center;
+    align-items: center;
+
+}

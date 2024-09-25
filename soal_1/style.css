@@ -1,0 +1,20 @@
+.col{
+    background-color: darkblue;
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+    /* justify-content: center; */
+    font-size: 15px;
+    font-style: oblique;
+    font-family: serif;
+    border: 5px inset darkcyan;
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+
+}
